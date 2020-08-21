@@ -17,10 +17,6 @@ def update_status
          {name: "Steven", age: "30", attitude: "confused"},
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
-      },
-      :additional_characters => {
-      :name => "Prince Escalus",
-      :name => "Apothecary"
       }
    }
 
@@ -63,8 +59,8 @@ def add_characters
    #   - The first hash should have the :name key set to "Prince Escalus"
    #   - The second hash should have the :name key set to "Apothecary"
    # Code your solution here:
-   add_characters[:add_characters[0][:name] = "Prince Escalus"
-   add_characters[:add_characters[1]][:name] = "Apothecary"
+   epic_tragedy[:add_characters[0][:name] = "Prince Escalus"
+   epic_tragedy[:add_characters[1]][:name] = "Apothecary"
 
    # After your code, the following line will return the altered hash
    epic_tragedy
